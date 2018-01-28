@@ -1,0 +1,19 @@
+div {
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+}
+
+div.move-right {
+  background-color: #3498db;
+  transform: translateX(100px);
+}
+
+div.move-down {
+  background-color: #f1c40f;
+  transform: translateY(20px);
+}
+
+div:hover {
+  transform: translate(20px, 20px);
+}
